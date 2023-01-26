@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b8ba4d9-00ad-4292-a206-6514e73ff3fc" name="Changes" comment="52 --&gt; Creating UnderDutyExistException class for handling under duty is already exist exception.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UnderDutyNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UserExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/WrongUserEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7b8ba4d9-00ad-4292-a206-6514e73ff3fc" name="Changes" comment="60 --&gt; add xml files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,63 +106,7 @@
       <workItem from="1674711068707" duration="4332000" />
       <workItem from="1674722505013" duration="788000" />
       <workItem from="1674725951896" duration="5070000" />
-      <workItem from="1674732694044" duration="1139000" />
-    </task>
-    <task id="LOCAL-00010" summary="4 --&gt; Create a SessionFactory Singleton class to get the SessionFactory object.">
-      <created>1674726422868</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726422868</updated>
-    </task>
-    <task id="LOCAL-00011" summary="5 --&gt; Make baseEntity class as superclass.">
-      <created>1674726475922</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726475922</updated>
-    </task>
-    <task id="LOCAL-00012" summary="6 --&gt; Creating a user class to create a table of users in the database.">
-      <created>1674726560473</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726560473</updated>
-    </task>
-    <task id="LOCAL-00013" summary="7 --&gt; Creating a user class to create a table of users in the database.">
-      <created>1674726630049</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726630049</updated>
-    </task>
-    <task id="LOCAL-00014" summary="8 --&gt; Creating a customer class to store customers in the database.">
-      <created>1674726781599</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726781599</updated>
-    </task>
-    <task id="LOCAL-00015" summary="9 --&gt; Creating an expert class to store experts in the database.">
-      <created>1674726814080</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726814080</updated>
-    </task>
-    <task id="LOCAL-00016" summary="10 --&gt; Creating a duty and UnderDuty class to store duties in the database.">
-      <created>1674726886745</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726886745</updated>
-    </task>
-    <task id="LOCAL-00017" summary="11 --&gt; Creating a Comment class to store users comments in the database.">
-      <created>1674726973444</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1674726973444</updated>
+      <workItem from="1674732694044" duration="1552000" />
     </task>
     <task id="LOCAL-00018" summary="12 --&gt; Creating an Offers class to store expert suggestions in the database.">
       <created>1674727093257</created>
@@ -459,7 +395,63 @@
       <option name="project" value="LOCAL" />
       <updated>1674733836165</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="53 --&gt; Creating UnderDutyNotFoundException class for handling under duty not found exception.">
+      <created>1674733901076</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1674733901076</updated>
+    </task>
+    <task id="LOCAL-00060" summary="54 --&gt; Creating UserExistException class for handling user already exist exception.">
+      <created>1674733951336</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1674733951336</updated>
+    </task>
+    <task id="LOCAL-00061" summary="55 --&gt; Creating UserNotFoundException class for handling user not found exception.">
+      <created>1674733984290</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1674733984290</updated>
+    </task>
+    <task id="LOCAL-00062" summary="56 --&gt; Creating WrongUserEmailException class for handling user not found with this email exception.">
+      <created>1674734094347</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734094347</updated>
+    </task>
+    <task id="LOCAL-00063" summary="57 --&gt; Creating MainMenu class for test project in my computer.">
+      <created>1674734139022</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734139022</updated>
+    </task>
+    <task id="LOCAL-00064" summary="58 --&gt; Creating Main class for run project in my computer.">
+      <created>1674734161258</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734161258</updated>
+    </task>
+    <task id="LOCAL-00065" summary="59 --&gt; add workspace.xml file.">
+      <created>1674734183498</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734183498</updated>
+    </task>
+    <task id="LOCAL-00066" summary="60 --&gt; add xml files.">
+      <created>1674734217020</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734217020</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,14 +472,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="28 --&gt; Create UnderDutyService class." />
-    <MESSAGE value="29 --&gt; Creating the class checkExistUnderDuty and Duty to check the existence of the selected duty or under duty." />
-    <MESSAGE value="30 --&gt; Creating the SecurityUtils class to get the loggedIn user." />
-    <MESSAGE value="31 --&gt; Creating the DateFormatter class for formatting date of entry." />
-    <MESSAGE value="32 --&gt; Creating Fill classes in controller package to populate entities." />
-    <MESSAGE value="33 --&gt; Creating PrintDutyList for get Duty list and print it on the console." />
-    <MESSAGE value="34 --&gt; Creating PrintUnderDutyList for get underDuty list and print it on the console." />
-    <MESSAGE value="35 --&gt; Creating PrintOrderList for get Order list and print it on the console." />
     <MESSAGE value="36 --&gt; Creating PrintExpertList for get Expert list and print it on the console." />
     <MESSAGE value="37 --&gt; Creating the PrintMenu class to print menus in the console." />
     <MESSAGE value="38 --&gt; Creating BigFileException class for handling file size bigger than 300kb." />
@@ -505,6 +489,14 @@
     <MESSAGE value="50 --&gt; Creating LessProposedPriceException class for handling less proposed price exception." />
     <MESSAGE value="51 --&gt; Creating OrderNotFoundException class for handling order not found exception." />
     <MESSAGE value="52 --&gt; Creating UnderDutyExistException class for handling under duty is already exist exception." />
-    <option name="LAST_COMMIT_MESSAGE" value="52 --&gt; Creating UnderDutyExistException class for handling under duty is already exist exception." />
+    <MESSAGE value="53 --&gt; Creating UnderDutyNotFoundException class for handling under duty not found exception." />
+    <MESSAGE value="54 --&gt; Creating UserExistException class for handling user already exist exception." />
+    <MESSAGE value="55 --&gt; Creating UserNotFoundException class for handling user not found exception." />
+    <MESSAGE value="56 --&gt; Creating WrongUserEmailException class for handling user not found with this email exception." />
+    <MESSAGE value="57 --&gt; Creating MainMenu class for test project in my computer." />
+    <MESSAGE value="58 --&gt; Creating Main class for run project in my computer." />
+    <MESSAGE value="59 --&gt; add workspace.xml file." />
+    <MESSAGE value="60 --&gt; add xml files." />
+    <option name="LAST_COMMIT_MESSAGE" value="60 --&gt; add xml files." />
   </component>
 </project>
