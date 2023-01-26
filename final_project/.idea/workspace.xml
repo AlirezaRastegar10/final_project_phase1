@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b8ba4d9-00ad-4292-a206-6514e73ff3fc" name="Changes" comment="7 --&gt; Creating the user class as an entity.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/final_project.UN0owQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/final_project.UN0owQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/final_project.UN0owQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/final_project.UN0owQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31b7ef01-23eb-44ce-ba3b-6eb890334261/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/configuration/SessionFactorySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/controller/FillCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/controller/FillExpert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/controller/FillUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Duty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Expert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Offers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/UnderDuty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/enumeration/ExpertStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/enumeration/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/entity/enumeration/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/BigFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/DateAndTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/DutyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/DutyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/ExpertNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/FileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/FileNotJPEGException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/InvalidAddressException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/InvalidDescriptionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/InvalidEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/InvalidNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/LessProposedPriceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UnderDutyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UnderDutyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UserExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/exceptions/WrongUserEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/PrintDutyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/PrintExpertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/PrintMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/PrintOrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/menu/PrintUnderDutyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/DutyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/ExpertRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/UnderDutyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/DutyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/ExpertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/UnderDutyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/CheckExistDuty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/CheckExistUnderDuty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/CheckFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/ColorPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/DateFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/util/SetFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KgQqOi39poEssI9ZjHOyEUIihj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/maktab83/quiz/quiz",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.maktab.security" />
+      <recent name="ir.maktab.configuration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.maktab.Main" />
+      <module name="final_project_phse_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.maktab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b8ba4d9-00ad-4292-a206-6514e73ff3fc" name="Changes" comment="" />
+      <created>1674393941764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674393941764</updated>
+      <workItem from="1674393944440" duration="3560000" />
+      <workItem from="1674458188587" duration="42532000" />
+      <workItem from="1674627876323" duration="44919000" />
+      <workItem from="1674711068707" duration="4332000" />
+      <workItem from="1674722505013" duration="788000" />
+      <workItem from="1674725951896" duration="52000" />
+    </task>
+    <task id="LOCAL-00001" summary="1 --&gt; Add jar files and project dependencies.">
+      <created>1674721635733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721635733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2 --&gt; Creating the hibernate.cfg.xml file to configure the database.">
+      <created>1674721698676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721698676</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3 --&gt; Create logback.xml file to store logs in test.log file.">
+      <created>1674721853877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721853877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4 --&gt; add workspace.xml file.">
+      <created>1674722304108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674722304108</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5 --&gt; Create a SessionFactory Singleton class to get the sessionFactory object.">
+      <created>1674722574981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674722574981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6 --&gt; Make baseEntity class as superclass.">
+      <created>1674722730956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674722730956</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="1 --&gt; Add jar files and project dependencies." />
+    <MESSAGE value="2 --&gt; Creating the hibernate.cfg.xml file to configure the database." />
+    <MESSAGE value="3 --&gt; Create logback.xml file to store logs in test.log file." />
+    <MESSAGE value="4 --&gt; add workspace.xml file." />
+    <MESSAGE value="5 --&gt; Create a SessionFactory Singleton class to get the sessionFactory object." />
+    <MESSAGE value="6 --&gt; Make baseEntity class as superclass." />
+    <MESSAGE value="7 --&gt; Creating the user class as an entity." />
+    <option name="LAST_COMMIT_MESSAGE" value="7 --&gt; Creating the user class as an entity." />
+  </component>
+</project>
