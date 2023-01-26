@@ -51,7 +51,7 @@ public class CheckFields {
         if (!file.exists()) {
             throw new FileNotFoundException("no files found at the requested url");
         } else if (!file.getName().endsWith(".jpg")){
-            throw new FileNotJPEGException("the photo format is not jpg.");
+            throw new FileNotJPGException("the photo format is not jpg.");
         } else if (file.length() > 307200) {
             throw new BigFileException("the size of the photo is more than 300 kb.");
         }
